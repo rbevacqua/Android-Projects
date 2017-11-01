@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Triage</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_register">Register</string>
+    <string name="button_login">Login</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="title_activity_homepage">Homepage</string>
+    <string name="alpha_numeric">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="button_patient_records">Access Patient Records</string>
+    <string name="button_urgency_list">View Patient Urgency List</string>
+    <string name="button_record_patient">Record Patient</string>
+    <string name="button_save">Save All</string>
+    <string name="title_activity_features">Patient Features</string>
+    <string name="title_activity_record_patient">Record Patient</string>
+    <string name="title_activity_record_vitals">Record Vitals</string>
+
+    <string-array name="features_list_nurse">
+        <item>View Patient Data</item>
+        <item>Record Vitals</item>
+        <item>Record Seen by Doctor</item>
+    </string-array>
+    <string-array name="features_list_doctor">
+        <item>View Patient Data</item>
+        <item>Record Perscription</item>
+    </string-array>
+
+    <string name="numeric">0123456789</string>
+    <string name="temp_hint">Tempature in Celsius</string>
+    <string name="bp_diastolic_hint">Diastolic Blood Pressure</string>
+    <string name="bp_systolic_hint">Systolic Blood Pressure</string>
+    <string name="heart_rate_hint">Heart Rate</string>
+    <string name="button_submit">Submit</string>
+    <string name="title_activity_search_patient">Search Patient</string>
+    <string name="title_activity_find_patient_record">Find Patient Record</string>
+    <string name="button_record">Record</string>
+    <string name="patient_name">Name</string>
+    <string name="patient_dayofBirth">Day of Birth</string>
+    <string name="patient_monthofBirth">Month of Birth</string>
+    <string name="patient_yearofBirth">Year of Birth</string>
+    <string name="patient_healthCardNum">Health Card Number</string>
+    <string name="button_find_patient">Find Patient</string>
+    <string name="title_activity_patient_data">Patient Data</string>
+    <string name="title_activity_perscription">Record Perscription</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="instructions">Instructions</string>
+    <string name="title_activity_urgency_list">Patient Urgency List</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

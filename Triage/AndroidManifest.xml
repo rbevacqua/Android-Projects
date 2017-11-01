@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.androidUI"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.androidUI.LoginActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.androidUI.HomepageActivity"
+            android:label="@string/title_activity_homepage" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.PatientFeaturesActivity"
+            android:label="@string/title_activity_features" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.RecordPatientActivity"
+            android:label="@string/title_activity_record_patient" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.RecordVitalsActivity"
+            android:label="@string/title_activity_record_vitals" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.FindPatientRecordActivity"
+            android:label="@string/title_activity_find_patient_record" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.PatientDataActivity"
+            android:label="@string/title_activity_patient_data" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.PerscriptionActivity"
+            android:label="@string/title_activity_perscription" >
+        </activity>
+        <activity
+            android:name="com.example.androidUI.UrgencyListActivity"
+            android:label="@string/title_activity_urgency_list" >
+        </activity>
+    </application>
+
+</manifest>

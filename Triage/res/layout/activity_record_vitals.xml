@@ -1,0 +1,77 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/AliceBlue"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".RecordVitalsActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <EditText
+            android:id="@+id/tempText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:digits="0123456789-."
+            android:ems="10"
+            android:hint="@string/temp_hint"
+            android:inputType="numberSigned|numberDecimal" >
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/bpDiastolicText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:digits="@string/numeric"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="@string/bp_diastolic_hint" />
+
+        <EditText
+            android:id="@+id/bpSystolicText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:digits="@string/numeric"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="@string/bp_systolic_hint" />
+
+        <EditText
+            android:id="@+id/heartRateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:digits="@string/numeric"
+            android:inputType="numberSigned"
+            android:ems="10"
+            android:hint="@string/heart_rate_hint" />
+
+        <TextView
+            android:id="@+id/confirmMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:id="@+id/buttonSubmit"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:onClick="recordVitals"
+            android:text="@string/button_record" />
+
+    </LinearLayout>
+
+</ScrollView>
